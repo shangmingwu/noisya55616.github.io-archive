@@ -23,7 +23,7 @@ This magnetic field turns on and off when there is current. By turning the field
 
 # Brushed vs unbrushed: What’s the difference?
 
-![Comparison of brushed vs unbrushed motor](https://www.ibtinc.com/wp-content/uploads/2019/01/brushless-vs-brushed-motor-comparison.jpg)
+![Comparison of brushed vs unbrushed motor](https://i.imgur.com/eOmmVyO.png)
 
 Brushed motors have “brushes” which are used to deliver current, whereas brushless motors use another set of electrical componentry to transfer energy.
 
