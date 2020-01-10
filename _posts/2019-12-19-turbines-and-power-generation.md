@@ -6,8 +6,12 @@ title: "Turbines and power generation"
 # Turbines
 
 Turbines are an important part of many methods of energy production. 
-Although they look complicated, they're function isn't and they are actually pretty cool. 
+Although they look complicated, their function isn't and they are actually pretty cool. 
 When you understand how they work and what they do, they are very simple.
+
+![Steam turbine](https://upload.wikimedia.org/wikipedia/commons/7/79/Dampfturbine_Montage01.jpg)
+
+*A Siemens steam turbine. By Siemens Pressebild - http://www.siemens.com/index.jsp?sdc_p=cfi1075924l0mno1130262ps5uz3&sdc_bcpath=1327899.s_5%2C%3A1176453.s_5%2C&sdc_sid=31880989447&, CC BY-SA 3.0. [Link to image.](https://commons.wikimedia.org/w/index.php?curid=444984)*
 
 ## How Do Turbines Work?
 
