@@ -3,6 +3,8 @@ layout: post
 title: "Turbines and power generation"
 ---
 
+*Written By Daman*
+
 # Turbines
 
 Turbines are an important part of many methods of energy production. 

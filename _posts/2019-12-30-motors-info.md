@@ -3,6 +3,8 @@ layout: post
 title: "Some information about motors"
 ---
 
+*Written By Marcus*
+
 # What are motors?
 
 A motor is a device that converts electrical energy into mechanical energy. Motors are used in many everyday things, like cars and laptops.
