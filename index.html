@@ -1,14 +1,17 @@
 ---
 layout: default
-title: Big brain time
+title: Welcome to my website!
 ---
 <div class="blurb">
-	<h1>Welcome to Genius Hour!</h1>
-	<p>This is the Genius Hour website for the project of Simon, Daman and Marcus. If that's what you are looking for, you've come to the right place!</p>
-	<p>Feel free to look around. Navigate the sections of our website in the top bar.
-		If you think anything is wrong, or stupid or you find a typo, then you can email me with the link in the bottom.
-	</p>
-	<p>Looking for something specific? Find out about <a href="/project">Our project</a>, our <a href="/blog/">Blog</a>, or read <a href="/about">About</a> us.</p>
-	
+	<h1>{{ page.title }}</h1>
+
+	<p>It may look a little empty for the next little while, and it's still a sparse website (I'm not a web developer), but I am going to be filling it in with things that interest me over the next little while.</p>
+
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span>:<br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li><br>
+	  {% endfor %}
+    </ul>
 	
 </div><!-- /.blurb -->
