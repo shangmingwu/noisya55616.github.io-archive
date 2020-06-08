@@ -39,6 +39,12 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+ul {
+	font-family: 'Roboto', 'Helvetica';
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
 footer {
 	font-family: 'Roboto', 'Helvetica';
     border-top: 1px solid #d5d5d5;
