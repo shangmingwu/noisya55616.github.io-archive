@@ -33,14 +33,10 @@ To begin, let $$M = b^m$$ and $$N = b^n$$.
 
 $$\begin{eqnarray}
 log_{b} (M) + log_{b} (N) &=& log_{b} (b^m) + log_{b} (b^n) \nonumber \\
-&=& m + n \nonumber 
-\end{eqnarray}$$
-
-
-$$\begin{eqnarray}
+    &=& m + n \nonumber \\
 log_{b} (MN) &=& log_{b} (b^m * b^m) \nonumber \\
-&=& log_{b} (b^{m + n}) \nonumber \\
-&=& m + n
+    &=& log_{b} (b^{m + n}) \nonumber \\
+    &=& m + n \nonumber
 \end{eqnarray}$$
 
 Therefore,
