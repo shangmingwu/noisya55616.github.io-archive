@@ -1,5 +1,8 @@
 * {
-	font-family:'Roboto', 'Helvetica', 'Sans-Serif';
+    font-family:'Roboto', 'Helvetica', 'Sans-Serif';
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
 body {
     margin: 60px auto;
