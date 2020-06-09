@@ -46,7 +46,7 @@ ul {
     line-height: 1.4em;
     color: #333;
 }
-ul ul{
+ul li{
 	font-family: 'Roboto', 'Helvetica';
     font-size: 1.5em;
     line-height: 1.4em;
