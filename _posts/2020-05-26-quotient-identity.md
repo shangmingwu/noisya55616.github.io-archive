@@ -1,3 +1,11 @@
+---
+layout: post
+mathjax: true
+title: "Cool Math Problem: OMO Fall 2012 Q12"
+date: 2020-05-26
+categories: math
+---
+
 So, I recently saw an interesting sort of quotient identity in a Discord server that I'm in, and thought that I should write about it.
 
 $$\int_{1}^{a} \frac{1}{x} dx + \int_{1}^{b} \frac{1}{x} dx = \int_{1}^{ab} \frac{1}{x}dx$$
