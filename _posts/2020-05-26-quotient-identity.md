@@ -10,7 +10,7 @@ So, I recently saw an interesting sort of quotient identity in a Discord server 
 
 $$\int_{1}^{a} \frac{1}{x} dx + \int_{1}^{b} \frac{1}{x} dx = \int_{1}^{ab} \frac{1}{x}dx$$
 
-How would we go about proving this? Let's start by evaluating each side of this euqation first. We'll start with the left side.
+How would we go about proving this? Let's start by evaluating each side of this equation first. We'll start with the left side.
 
 $$\begin{eqnarray}
 \int_{1}^{a} \frac{1}{x} dx + \int_{1}^{b} \frac{1}{x} dx &=& ln |a| - ln |1| + ln |b| - ln|1| \nonumber \\
