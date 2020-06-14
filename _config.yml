@@ -1,6 +1,6 @@
 name: Simon Wu
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-
-
+plugins:
+  - jekyll-feed
 theme: minima
