@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "Cool Math Problem: OMO Fall 2012 Q12"
+title: "Interesting integral quotient dentity"
 date: 2020-05-26
 categories: math
 ---
