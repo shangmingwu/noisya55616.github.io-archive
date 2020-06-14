@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "Interesting integral quotient dentity"
+title: "Interesting integral quotient identity"
 date: 2020-05-26
 categories: math
 ---
