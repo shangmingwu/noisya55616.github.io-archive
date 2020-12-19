@@ -4,6 +4,6 @@ permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-feed
 theme: minima
-title: Simon's blog
-description: My blog about stuff I like.
+title: Simon's Site
+description: A place to write about things I'm interested in.
 author: Simon Wu
