@@ -13,7 +13,7 @@ $$\int_{1}^{a} \frac{1}{x} \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \mathrm{d}x = 
 How would we go about proving this? Let's start by evaluating each side of this equation first. We'll start with the left side.
 
 $$\begin{eqnarray}
-\int_{1}^{a} \frac{1}{x} \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \mathrm{d}x &=& ln |a| - \ln |1| + \ln |b| - \ln|1| \nonumber \\
+\int_{1}^{a} \frac{1}{x} \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \mathrm{d}x &=& \ln |a| - \ln |1| + \ln |b| - \ln|1| \nonumber \\
 &=& \ln |a| + \ln |b| \nonumber
 \end{eqnarray}$$
 
