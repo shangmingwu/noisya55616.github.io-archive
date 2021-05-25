@@ -8,19 +8,19 @@ categories: math
 
 So, I recently saw an interesting sort of quotient identity in a Discord server that I'm in, and thought that I should write about it.
 
-$$\int_{1}^{a} \frac{1}{x} \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \mathrm{d}x = \int_{1}^{ab} \frac{1}{x}\mathrm{d}x$$
+$$\int_{1}^{a} \frac{1}{x}\, \mathrm{d}x + \int_{1}^{b} \frac{1}{x}\, \mathrm{d}x = \int_{1}^{ab} \frac{1}{x}\,\mathrm{d}x$$
 
 How would we go about proving this? Let's start by evaluating each side of this equation first. We'll start with the left side.
 
 $$\begin{eqnarray}
-\int_{1}^{a} \frac{1}{x} \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \mathrm{d}x &=& \ln |a| - \ln |1| + \ln |b| - \ln|1| \nonumber \\
+\int_{1}^{a} \frac{1}{x}\, \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \,\mathrm{d}x &=& \ln |a| - \ln |1| + \ln |b| - \ln|1| \nonumber \\
 &=& \ln |a| + \ln |b| \nonumber
 \end{eqnarray}$$
 
 We then evaluate the right side.
 
 $$\begin{eqnarray}
-\int_{1}^{ab} \frac{1}{x} \mathrm{d}x &=& \ln |ab| - \ln |1| \nonumber \\
+\int_{1}^{ab} \frac{1}{x}\, \mathrm{d}x &=& \ln |ab| - \ln |1| \nonumber \\
 &=& \ln |ab| \nonumber
 \end{eqnarray}$$
 
@@ -35,7 +35,7 @@ To begin, let $$M = b^m$$ and $$N = b^n$$.
 $$\begin{eqnarray}
 \log_{b} (M) + \log_{b} (N) &=& \log_{b} (b^m) + \log_{b} (b^n) \nonumber \\
     &=& m + n \nonumber \\
-\log_{b} (MN) &=& \log_{b} (b^m * b^m) \nonumber \\
+\log_{b} (MN) &=& \log_{b} (b^m \cdot b^m) \nonumber \\
     &=& \log_{b} (b^{m + n}) \nonumber \\
     &=& m + n \nonumber
 \end{eqnarray}$$
@@ -47,7 +47,7 @@ $$\begin{eqnarray}
 &\downarrow& \nonumber \\
 \ln |a| + \ln |b| &=& \ln |ab| \nonumber \\
 &\downarrow& \nonumber \\
-\int_{1}^{a} \frac{1}{x} \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \mathrm{d}x &=& \int_{1}^{ab} \frac{1}{x}\mathrm{d}x \nonumber
+\int_{1}^{a} \frac{1}{x}\, \mathrm{d}x + \int_{1}^{b} \frac{1}{x} \,\mathrm{d}x &=& \int_{1}^{ab} \frac{1}{x}\,\mathrm{d}x \nonumber
 \end{eqnarray}$$
 
 Pretty cool, right?
