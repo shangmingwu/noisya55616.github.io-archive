@@ -15,13 +15,6 @@ title: Homepage
 	<hr>
 	{% endfor %}
 
-	<h2>Art</h2>
-
-	{% for post in site.art %}
-	<span>{{ post.date | date_to_string }}</span><br><big><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></big>
-	<hr>
-	{% endfor %}
-
 	<h2>Highmark Markdown Editor</h2>
 	<p>The Highmark Markdown Editor is a Markdown editor that I created as part of a computer studies course summative assignment. Check it out <a href="./highmark/index.html">here</a>!</p>
 	<a href="./highmark/index.html"><img src="./assets/images/HIGHMARK-PREVIEW.png" alt="Highmark preview" style="width: 100%"></a>

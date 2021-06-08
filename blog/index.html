@@ -9,10 +9,3 @@ title: Blog
 	<br>Categories: {%  for tag in post.categories %}{{ tag }} {% endfor %}
 	<hr>
 	{% endfor %}
-
-	<h1>Art</h1>
-
-	{% for post in site.art %}
-	<span>{{ post.date | date_to_string }}</span><br><big><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></big>
-	<hr>
-	{% endfor %}

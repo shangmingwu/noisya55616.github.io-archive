@@ -2,6 +2,7 @@
 layout: post
 title: "Drawing: Aurora from Maleficent (I think)"
 date: 2021-06-07
+categories: art
 ---
 
 This is a drawing I made on June 7th, 2021. It was made in MediBang Paint Pro on macOS, with my Gaomon S620 pen tablet.
