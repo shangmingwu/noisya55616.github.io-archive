@@ -6,7 +6,11 @@ title: Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span>:<br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li><br>
+	    <li><span>{{ post.date | date_to_string }}</span>:<br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			<ul>
+				<li> {%  for tag in post.categories %}{{ tag }} {% endfor %}
+			</ul>
+		</li><br>
 	  {% endfor %}
 	</ul> -->
 
