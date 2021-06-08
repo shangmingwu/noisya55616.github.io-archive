@@ -7,6 +7,6 @@ title: Blog
 	{% for post in site.posts %}
 	<span>{{ post.date | date_to_string }}</span><br><big><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></big>
 	<br>Categories: {%  for tag in post.categories %}{{ tag }} {% endfor %}
-	<br>
+	<hr>
 	{% endfor %}
 
