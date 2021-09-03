@@ -1,6 +1,6 @@
 title: Simon's Site
 author: Simon Wu
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+url: https://noisya55616.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
   Simon Wu's personal blog. I host various projects and my blog here!
 permalink: /blog/:slug.html
