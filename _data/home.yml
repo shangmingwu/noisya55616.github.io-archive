@@ -1,16 +1,16 @@
 navbar_entries:
   - title: home
-    url: https://noisya55616.github.io
+    url: /
 
   - title: about
-    url: https://noisya55616.github.io/about
+    url: /about
 
   - title: blog
-    url: https://noisya55616.github.io/blog
+    url: /blog
 
 footer_entries:
   - title: github
     url: https://github.com/noisya55616
 
   - title: feed
-    url: https://noisya55616.github.io/feed.xml
+    url: /feed.xml
