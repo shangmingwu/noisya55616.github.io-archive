@@ -432,21 +432,18 @@ td, th {
 .notion-token-remove-button:hover {
     opacity: 0.8
     }
-.notion-page-mention-token {
+.notion-notion-external-object, .notion-page-mention-token {
     box-shadow: 0 0 0 3px rgba(148, 148, 148, 0)
     }
-.notion-page-mention-token.notion-enable-hover:hover {
+.notion-page-mention-token.notion-enable-hover:hover, .notion-external-object-token.notion-enable-hover:hover {
+    cursor: pointer !important;
     background: rgba(148, 148, 148, 0.15);
     box-shadow: 0 0 0 3px rgba(148, 148, 148, 0.15);
     border-radius: 1px
     }
-.notion-page-mention-token.notion-enable-hover:hover {
-    background: rgba(148, 148, 148, 0.15);
-    box-shadow: 0 0 0 3px rgba(148, 148, 148, 0.15);
-    border-radius: 1px
-    }
-/* required to correctly highlight the icons within a page mention token */
-.notion-page-mention-token::selection {
+/* required to correctly highlight the icons within a page/external object
+mention token. */
+.notion-page-mention-token::selection, .notion-external-object-token::selection {
     background: rgba(46, 170, 220, 0.2)
     }
 /* ==================================================================== */
