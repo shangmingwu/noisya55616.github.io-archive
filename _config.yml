@@ -40,3 +40,8 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
+
+collections:
+  pppp:
+    output: true
+    permalink: /school/:collection/:name
