@@ -1,0 +1,24 @@
+---
+layout: home
+title: 404
+---
+<div class="blurb">
+	<h1>
+		404?
+	</h1>
+
+	<p>The page you're looking for isn't here, or something is very, very wrong. In the meantime, thought, why don't you check out some of my blog posts?</p>
+
+	{% if site.theme_config.show_blog == true %}
+  	<h2>{{ site.theme_config.home.title_blog }}</h2>
+  	{% include post_list.html %}
+	{% endif %}
+
+	<!-- <ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span>:<br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li><br>
+	  {% endfor %}
+    </ul> -->
+	
+</div><!-- /.blurb -->
