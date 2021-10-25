@@ -9,9 +9,21 @@ title: Pandemic Physics Personal Project
 
 <h2>Blog</h2>
 
-<h3><a href="blog.html">Main list</a></h3>
+<h3>Latest posts</h3>
 
-{% include pppp_list.html %}
+{% if site.pppp.size > 0 %}
+	{% assign sorted = site.pppp | sort: 'date' | reverse %}
+	{% for post in sorted limit:2 %}
+	<div class="postbox">
+		<span>{{ post.date | date_to_string }}</span><br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>Categories: {%  for tag in post.categories %}{{ tag }} {% endfor %}
+	</div>
+	{% endfor %}
+{% endif %}
+
+<h3><a href="blog.html">Full post listing</a></h3>
+
+<h3>Research masterpost</h3>
 
 <h2>About me</h2>
 

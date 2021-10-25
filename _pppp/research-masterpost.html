@@ -1,0 +1,23 @@
+---
+layout: pppp_post
+mathjax: true
+title: "Research masterpost"
+date: 2021-10-24
+categories: research
+---
+
+<p>All of my research can be found through this post, along with my research mind map.</p>
+<h2>All research posts</h2>
+{% if site.pppp.size > 0 %}
+	{% assign sorted = site.pppp | sort: 'date' | reverse %}
+	{% for post in sorted %}
+		{% if post.categories contains "research" %}
+			<div class="postbox">
+				<span>{{ post.date | date_to_string }}</span><br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				<br>Categories: {%  for tag in post.categories %}{{ tag }} {% endfor %}
+			</div>
+		{% endif %}
+	{% endfor %}
+{% endif %}
+<h2><a href="https://www.mindomo.com/mindmap/astronomical-spectroscopy-d0bcc7264a9e43f39853f2d189851304">Mindmap</a></h2>
+<iframe width="100%" height="500" src="https://www.mindomo.com/mindmap/astronomical-spectroscopy-d0bcc7264a9e43f39853f2d189851304" frameborder="0" allowfullscreen>Your browser does not support frames. <a href="https://www.mindomo.com/mindmap/astronomical-spectroscopy-d0bcc7264a9e43f39853f2d189851304" target="_blank">View</a> this map on its original site. It was created using <a href="https://www.mindomo.com" target="_blank">Mindomo</a>.</iframe>
