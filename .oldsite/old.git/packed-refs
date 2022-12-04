@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+944f2de3e6747f5f583b682d20acfdca6731daf6 refs/remotes/origin/heart
+8f920dca02968a44f7925239dfdb84ef451bd52b refs/remotes/origin/initial-research
+9276696380a0c230d9c19003831e6bea9bf72c48 refs/remotes/origin/master
+d65dda1a978ac47dd22cba88d7488d8572564f70 refs/remotes/origin/new-pppp-blog
+2b45359d26cfd5519255ddb37def8483de467ef1 refs/remotes/origin/second-patch-set

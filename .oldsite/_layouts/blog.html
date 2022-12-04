@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<header>
+	{% if site.theme_config.show_navbar == true %}
+		{% include header.html %}
+		<hr>
+	{% endif %}
+	</header>
+  <h1>Blog</h1>
+
+{% include post_list.html %}
+
+{% if site.theme_config.show_footer == true %}
+  <footer>
+    <hr>
+    {% include footer.html %}
+  </footer>
+{% endif %}
