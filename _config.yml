@@ -185,6 +185,7 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - /.old
   - /.wip
+  - /.oldsite
 keep_files:
   - .git
   - .svn
