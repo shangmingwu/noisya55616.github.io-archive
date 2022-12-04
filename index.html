@@ -1,28 +1,19 @@
 ---
 layout: home
-title: Homepage
+author_profile: true
 ---
-<div class="blurb">
-	<h1>
-		Simon's Site
-	</h1>
 
-	<p>It may look a little empty for the next little while, and it's still a sparse website, but I am going to be filling it in with things that interest me.</p>
+<p>
+Hi there!
+My name is Simon Wu.
+I'm interested in math, programming, music and astronomy.
+I love to learn new things, meet interesting people and have long conversations.
+</p>
 
-	<h2>School stuff!</h2>
+<p>
+    If you're interested in what I'm doing, check out my <a href="/now">now page</a>. If you're interested in how I'm doing, check out my <a href="/about">about page</a>.
+</p>
 
-	<p>I host a lot of materials for schoolwork on this site. You can check them out <a href="/school">here</a>!</p>
-
-	{% if site.theme_config.show_blog == true %}
-  	<h2>{{ site.theme_config.home.title_blog }}</h2>
-  	{% include post_list.html %}
-	{% endif %}
-
-	<!-- <ul class="posts">
-
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span>:<br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li><br>
-	  {% endfor %}
-    </ul> -->
-	
-</div><!-- /.blurb -->
+<div class="notice">
+    I'm currently searching for internship opportunities for Summer 2023. If you're interested in hiring me, please reach out to me by <a href="mailto:simon.shangming.wu@gmail.com">email</a>.
+</div>
